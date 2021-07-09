@@ -99,7 +99,6 @@ v1 = (1/g)*(r2 - f*r1);
 v2 = (1/g)*(dg*r2 - r1);
 
 % Obtain the classical orbital elements
-
 [hmag, emag, ideg, RAdeg, wdeg, TAdeg] = coe_from_sv(r1, v1);
 a = (hmag^2/mu)/(1-emag^2);
 e = emag;
