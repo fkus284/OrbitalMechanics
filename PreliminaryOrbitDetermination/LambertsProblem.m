@@ -15,7 +15,7 @@ function [a, e, ideg, RAdeg, wdeg, TAdeg] = LambertsProblem(r1, r2, t, trajector
 %           ideg    - inclination (deg)
 %           RAdeg   - right ascension of the ascending node (deg)
 %           wdeg    - argument of perigee (deg)
-%           TAdeg   - true anomaly at time t2(deg)
+%           TAdeg   - true anomaly at time t1 (deg)
 %
 % Author: Filip Kus
 
